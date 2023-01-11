@@ -7,7 +7,7 @@ ____
 We've implemented, trained, validated and tested the 4 following models:
 
 -  BiLSTM (baseline): this model has just a bi-directional layer of LSTM cells, in addition to the dense input layer (followed by the fixed embedding layer) and the dense time-distributed output layer 
-<img src="https://raw.githubusercontent.com/DavideFemia/POS-tagging-with-RNNs/main/img/BiLSTM.png" alt="MarineGEO circle logo" style="height: 100px; width:100px;"/>
+<img src="https://raw.githubusercontent.com/DavideFemia/POS-tagging-with-RNNs/main/img/BiLSTM.png" alt="BiLSTM model structure" style="width:200px height: auto"/>
 -  Double BiLSTM: Similar to the baseline, but with an additional bidirectional LSTM layer (Figure \ref{fig:doublebilstm}).
 -  BiLSTM + Dense: Similar to the baseline, but with an additional Dense distributed layer before the output layer (Figure \ref{fig:lstm_dense}).
 -  BiGRU: this model is similar to the baseline, but with a bi-directional GRU layer instead of a bi-directional LSTM layer (Figure \ref{fig:bigru}).
