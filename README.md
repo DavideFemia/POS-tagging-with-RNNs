@@ -12,14 +12,17 @@ We've implemented, trained, validated and tested the 4 following models:
 This model has just a bi-directional layer of LSTM cells, in addition to the dense input layer (followed by the fixed embedding layer) and the dense time-distributed output layer.
 
 <img src="https://raw.githubusercontent.com/DavideFemia/POS-tagging-with-RNNs/main/img/BiLSTM.png" alt="BiLSTM model structure" style="width:200px height: auto"/>
+
 ### 2. Double BiLSTM
 Similar to the baseline, but with an additional bidirectional LSTM layer.
 
 <img src="https://raw.githubusercontent.com/DavideFemia/POS-tagging-with-RNNs/main/img/double_bilstm.png" alt="double BiLSTM model structure" style="width:200px height: auto"/>
+
 ### 3.  BiLSTM + Dense
 Similar to the baseline, but with an additional Dense distributed layer before the output layer.
 
 <img src="https://raw.githubusercontent.com/DavideFemia/POS-tagging-with-RNNs/main/img/BiLSTM_dense.png" alt="BiLSTM+dense model structure" style="width:200px height: auto"/>
+
 ### 4.  BiGRU
 Similar to the baseline, but with a bi-directional GRU layer instead of a bi-directional LSTM layer.
 
